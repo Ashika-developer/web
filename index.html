@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<body bgcolor="#D3D3D3">
+    <meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Training Institute</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+<link rel="stylesheet"  href="style.css" type="text/css">
+
+
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<div class="container-fluid">
+<a class="navbar-brand" href="#"><img src="logo.png" height="100" width="250"></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+
+	<span class="navbar-toggler-icon"></span>
+</button>
+	
+ <ul class="navbar-nav ml-auto">
+<div class="collapse navbar-collapse" id="myNavbar">
+<ul class="nav navbar-nav navbar-right">
+<li><a href="#Home">Home</a></li>
+<li><a href="#Courses">Courses</a></li>
+<li><a href="#Career">Career</a></li>
+<li><a href="#PhotoGallary">PhotoGallary</a></li>
+<li><a href="#Reviews">Reviews</a></li>
+<li><a href="#Faculty">Faculty</a></li>
+<li><a href="#Connect">Connect</a></li>
+</ul>
+</ul>
+</div>
+</div>
+</nav>
+<div id="slides" class="carousel slide" data-ride="carousel">
+<ul class="carousel-indicators">
+
+<li data-target="#slides" data-slide-to="0" class="active"></li>
+<li data-target="#slides" data-slide-to="1"></li>
+<li data-target="#slides" data-slide-to="2"></li>
+
+</ul>
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img src="correct3.png">
+<div class="carousel-caption">
+<button type="button" class="btn btn-outline-light btn-lg">ABOUT US</button>
+</div>
+</div>
+<div class="carousel-item">
+<img src="m2.png">
+</div>
+<div class="carousel-item">
+<img src="m3.png" >
+</div>
+
+		
+
+	</div>
+</div>
+
+<div class="container-fluid">
+<div class="row jumbotron">
+ <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+
+<p class="lead"><h2>JOB Oriented & Certification Training Courses</h2></p>
+<p class="lead"><h4>MASTER REAL SKILLS TODAY from INDUSTRY EXPERTS</h4></p>
+
+
+</div>
+ <div class="col-xs-12" col-sm-12 col-md-3 col-lg-3 col-xl-2">
+	<a href="#" ><button type="button" class="btn btn-outline-secondary btn-lg">Register Now</button></a>
+</div>
+</div>
+
+<div class="container-fluid padding">
+<div class="row welcome text-center">
+<div class="col-12">
+<h1 class="display-4">CodeSign 	</h1>
+<h6 class="display-4"> Training Center</h6>
+</div>
+<hr>
+<div class="col-12">
+	
+	<p id ="Courses" class="lead">CodeSign training Centre provides learners with an unprecedented level of experience in delivering Software and technical Skills(IT Skills)  With 100+ trainers and a global operating model, CodeSign has been an industry leader for 16 years.</p>
+</div>
+</div>
+</div>
+<div class="col-lg-12 mb-3" style= "background:#ae1e53; "> 
+									 <select name="pagename" id="pagename" class="form-control" required onchange="course_change();">
+                                        <option  value="">Select Course</option>
+											<option value="Digital Marketing">Digital Marketing SEO Course</option>
+											<option value="HADOOP">BigData Hadoop Training</option>
+											<option value="Data Science">Data Science Course</option>
+											<option value="DevOps">Best DevOps Training</option>
+											<option value="AWS Training">Amazon Web Services AWS</option> 
+					 						<option value="software testing manual+qtp">Software Testing Course</option>  
+											<option value="ROBOTIC PROCESS AUTOMATION">RPA Training</option> 
+											<option value="UI Course">UI Web Developer</option>
+											<option value="ANGULAR JS + NODE JS">AngularJS Training</option>
+											<option value="ANGULAR JS + NODE JS">C  Course</option>
+											<option value="ANGULAR JS + NODE JS"> C++ Course</option>
+                                            <option value="PYTHON">Python Training</option>
+											<option value="TABLEAU">Tableau Classes</option>
+											<option value="Salesforce">Salesforce Course</option>
+											<option value="Artificial Intelligence">Artificial Intelligence Course</option>
+											<option value="Machine Learning">Machine Learning</option>
+											<option value="Blockchain">Blockchain training</option>
+											<option value="IoT">IoT training</option>
+											<option value="Microsoft Azure">Microsoft Azure</option>
+											<option value="CORE DOTNET + ADV DOTNET">.NET Training</option>
+											<option value="Core Java + Adv Java">JAVA Course</option>
+											<option value="SQL + PLSQL">Oracle PL/SQL Training</option>
+											<option value="HR">Human Resources HR</option>
+											<option value="TALLY">Tally & GST</option>
+											<option value="AUTOCAD">AutoCAD 2D & 3D</option>
+											<option value="CATIA">CATIA</option>
+											<option value="REVIT">Revit Training</option>
+											<option value="Electrical Harness">Electrical Wiring Harness</option>
+											<option value="CCNA">Cisco CCNA Training</option>
+											<option value="Cloud Computing">Cloud Computing</option>
+											<option value="SELENIUM">Selenium Testing Course</option>
+											<option value="PHP">PHP Training</option>
+											<option value="Web Designing Training">Web Designing Training</option>
+											<option value="Spark and Scala">Spark & Scala</option>
+											<option value="INFORMATICA">Informatica Training</option>
+											<option value="Other course">Other Course</option>
+                                    </select>
+									
+								 
+                                </div>
+
+
+<div class="about py-5" style=" background: linear-gradient(to right, #033263 0%, #2974bf 100%);padding:70px 0px;">	
+ <div class="container">	
+<center><h3 class="header_h2 text-center" style="color:#fff;    padding-bottom: 4%;"> Certification Courses We Provide..</h3></center> 
+                    <div class="row">
+				<div class="col-md-4">
+								<ul class="list-mark">
+                                									<li><a href="internet-marketing-training-courses-bangalore.php" style=" text-decoration: none;color:white;">Digital Marketing (SEO/Social Media/PPC Google Adwords)</a></li>
+
+									<li><a href="seo-training.php" style=" text-decoration: none;color:white;">Best SEO Training</a></li>
+                                    									<li><a  style=" text-decoration: none;color:white;">AWS Training</a></li>
+                                    									<li><a  style=" text-decoration: none;color:white;">Cloud Computing Training</a></li>
+                                    									<li><a style=" text-decoration: none;color:white;">Data Science Training</a></li>
+
+									<li><a style=" text-decoration: none;color:white;">RPA Training</a></li>
+									<li><a  style=" text-decoration: none;color:white;">Data Warehousing - Informatica </a></li>
+
+									<li><a  style=" text-decoration: none;color:white;">Selenium Training</a></li>
+									<li><a  style=" text-decoration: none;color:white;">IBM Cognos 10 BI &amp; Cognos TM1</a></li>
+									<li><a  style=" text-decoration: none;color:white;">Qlikview (Deisgner, Developer, Publisher, Server)</a></li>
+									<li><a  style=" text-decoration: none;color:white;">IBM Websphere</a></li>
+									
+									<li><a  style=" text-decoration: none;color:white;">Python Training</a></li>
+									
+									<li><a href="website-designing-training-courses-bangalore.php" style=" text-decoration: none;color:white;">Web Designing Course</a></li>
+									<li><a href="datastage-training-center-bangalore.php" style=" text-decoration: none;color:white;">Data Stage Classes</a></li>
+									<li><a href="clearcase-training-courses-bangalore.php" style=" text-decoration: none;color:white;">Clear Case Training</a></li>
+																		
+
+								</ul>
+							</div>
+							<div class="col-md-4">
+								<ul class="list-mark">
+									<li><a href="hadoop-training-center-bangalore.php" style=" text-decoration: none;color:white;">BigData Hadoop Course</a></li>
+                                    									<li><a href="spark-scala-training-course-bangalore.php" style=" text-decoration: none;color:white;">Spark and Scala Course</a></li>
+									<li><a href="devops-training-institutes-in-bangalore.php" style=" text-decoration: none;color:white;">DevOps Training </a></li>
+
+									<li><a href="angular-node-js-training-courses-bangalore.php" style=" text-decoration: none;color:white;">Angularjs and Node JS Training</a></li>
+									<li><a href="weblogic-11g-administration-training-bangalore.php" style=" text-decoration: none;color:white;">Weblogic Training</a></li>
+									<li><a href="dot-.net-training-courses-bangalore.php" style=" text-decoration: none;color:white;">.NET Technologies</a></li>
+									<li><a href="soa-certification-training.php" style=" text-decoration: none;color:white;">SOA Suite 11g </a></li>
+									<li><a href="Oracle-DBA-training-courses-bangalore.php" style=" text-decoration: none;color:white;">Oracle DBA Training </a></li>
+									<li><a href="pl-sql-training-courses-bangalore.php" style=" text-decoration: none;color:white;">Oracle SQL, PLSQL, DBA, D2k, Apps</a></li>
+									<li><a href="etl-testing-training-btm-marathahalli.php" style=" text-decoration: none;color:white;">ETL Testing Course</a></li>
+									<li><a href="ppc-training.php" style=" text-decoration: none;color:white;">PPC Training Institute</a></li>
+									<li><a href="AutoDesk-Revit-Training-Institute-bangalore.php" style=" text-decoration: none;color:white;">Autodesk Revit Training</a></li>
+									<li><a href="autocad-training-centres-bangalore.php" style=" text-decoration: none;color:white;">Autodesk CAD 2d and 3d Course</a></li>
+									<li><a href="catia-training-courses-bangalore.php" style=" text-decoration: none;color:white;">Catia Training</a></li>
+                                    									<li><a href="electrical-wiring-harness-training-courses-bangalore.php" style=" text-decoration: none;color:white;">Wiring Harness Training</a></li>
+
+									<li><a href="Content-Writing-Training-Institute-bangalore.php" style=" text-decoration: none;color:white;">Content Writing Training</a></li>
+									<li><a href="oracle-siebel-crm-training-courses-bangalore.php" style=" text-decoration: none;color:white;">Siebel CRM Courses </a></li>
+								</ul>
+							</div>
+							<div class="col-md-4">
+								<ul class="list-mark">									<li><a href="machine-learning-certification-training-courses.php" style=" text-decoration: none;color:white;">Machine Learning Certification Training</a></li>
+									<li><a href="blockchain-certification-training-bangalore.php" style=" text-decoration: none;color:white;">Block Chain Training Courses</a></li>
+
+									<li><a href="tally-erp9-accouting-training-center-bangalore.php" style=" text-decoration: none;color:white;">Tally ERP & GST Accounting classes</a></li>
+									<li><a href="java-training-courses.php" style=" text-decoration: none;color:white;">Java course</a></li>
+									<li><a href="Software-Testing-Training-Institute-bangalore.php" style=" text-decoration: none;color:white;">Software Testing Course, Manual Testing, QTP, UFT, Loadrunner</a></li>
+									<li><a href="c-c++_training-institutes-bangalore.php" style=" text-decoration: none;color:white;">C C++ Course </a></li>
+									<li><a href="tableau-training-institutes-bangalore.php" style=" text-decoration: none;color:white;">Tableau</a> </li>
+									<li><a href="PHP-Training-Institute-Bangalore.php" style=" text-decoration: none;color:white;">PHP MYSQL, Python </a></li>
+									<li><a href="human-resources-hr-training-courses.php" style=" text-decoration: none;color:white;">Human Resources Classes </a></li>
+									<li><a href="microstrategy-training-in-bangalore.php" style=" text-decoration: none;color:white;">Microstartegy Course </a></li>
+									<li><a href="ccna-networking-training-courses-bangalore.php" style=" text-decoration: none;color:white;">Cisco CCNA Networking </a></li>
+									<li><a href="SAS-training-courses-bangalore.php" style=" text-decoration: none;color:white;">SAS Training </a></li>
+									<li><a href="soft-skills-training-institute-bangalore.php" style=" text-decoration: none;color:white;">Softskill Courses </a></li>
+									<li><a href="itil-certification-training-bangalore.php" style=" text-decoration: none;color:white;">ITIL Certificate Training </a></li>
+									<li><a href="sap-training-courses-bangalore.php" style=" text-decoration: none;color:white;">SAP Courses </a></li>
+									
+								</ul>
+							</div>
+										  <!-- end col --> 
+						</div>
+								   <!-- end row --> 
+					</div>  
+				</div>
+               
+	  
+
+
+
+
+ 
+ <div style="	margin-top:5%;">
+				   <center>
+				   <div class="tab">
+					  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen" style="">Popular Courses</button>
+					  <button class="tablinks" onclick="openCity(event, 'Paris')" id="defaultOpen_1" style="">Trending Courses</button>
+					</div>
+
+					<div id="London" class="tabcontent" style="padding: 3%;">
+					 <div class="row " style="margin-top:3%">
+					  <div class="container-fluid padding">
+<div class="row text-center padding">
+	<div class="col-xs-12 col-sm-6" col-md-4">
+	<i class="fas fa-code"></i>
+	<h3>Programming</h3>
+<p>These certificate courses enable students to boost their career.</p>
+</div>
+
+<div class="col-xs-12 col-sm-6" col-md-4">
+	
+<img src="layout.png" height="70" width="60" >
+	<h3>Web design</h3>
+<p>Learn html,bootstrap,css and Javascript</p>
+</div>
+<div class="col-xs-12 col-sm-6" col-md-4">
+	<img src="some.png" height="70" width="60" >
+	<h3>Artificial Intelligence</h3>
+<p>Designed by Experts
+Most Advanced Course Contents, Videos, Assignments & Installation guides</p>
+</div>
+<div class="col-xs-12 col-sm-6" col-md-4">
+	<img src="learning.png" height="70" width="60" >
+	<h3>Machine Learning</h3>
+<p>Fully Managed Services For Every Developer And Data Scientist.</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+				  
+					  
+					 
+					 
+					 
+					
+					<button style="" class="explore_button">Explore all Courses</button>
+					</center>
+
+					
+                </div>
+                </div>
+		
+              
+            
+      
+    </div>  
+    </div>  
+ <div class="about py-5" style="padding-top: 24px!important;background-color:#f5f5f5;" id="sec3">
+        <div class="container text-white">
+            <h3 id="Career" class="header_h2 text-center" style="color:#333;    padding-bottom: 4%;">Career & Placement Support</h3>
+            <div class="row course_highlights">
+
+
+                <div class="col-lg-3 ">
+				<div style="box-shadow:0 0.125rem 0.1875rem 0 rgba(0,0,0,.11);">
+				<img src="hr.png" alt="seo courses with placement support" style="    width: 100%;"/>
+				<div style="background-color:#fff;    padding: 8%;" class="career">
+                  <h4 style="color:blue;">Get Hired Faster with CodeSign</h4>
+				  <p  style=" color:black;   padding-bottom: 12%;">Our Placement Team will be sending you job opportunities and arranging interviews till you get placement in IT Companies. These certificate courses enable students to boost their career prospects. </p>
+ <center><a " style="    color: #00b5de;
+    font-size: 14px;
+    border: 1px solid #00b5de;
+    border-radius: 3px;
+    padding: 6px 12px 7px 11px;">Get Started</a></center>
+                </div>
+                </div>
+                </div>
+
+                <div class="col-lg-3 ">
+						<div style="box-shadow:0 0.125rem 0.1875rem 0 rgba(0,0,0,.11);">
+				<img src="think.png" alt="digital marketing certification training in bangalore"  style="    width: 100%;"/>
+				<div style="background-color:#fff;    padding: 8%;" class="career">
+                  <h4 style="color:blue;"> Interview scheduling</h4>
+				  <p style=" color:black;   padding-bottom: 12%;">We will be sending your Updated Resume to IT Recruiters & Get your Interview Scheduled in Bangalore and Chennai</p>
+<center><a " style="    color: #00b5de;
+    font-size: 14px;
+    border: 1px solid #00b5de;
+    border-radius: 3px;
+    padding: 6px 12px 7px 11px;">Get Started</a></center>
+                </div>
+                </div>
+                </div>
+
+                <div class="col-lg-3 ">
+				<div style="box-shadow:0 0.125rem 0.1875rem 0 rgba(0,0,0,.11);">
+				<img src="approved.png" alt="digital marketing courses" style="    width: 100%;"/>
+				<div style="background-color:#fff;    padding: 8%;" class="career">
+                  <h4 style="color:blue;">Hands-on Projects
+</h4>
+				  <p  style=" color:black; ">Our courses integrate Real-World hands-on training with Case Studies and Projects using datasets from companies like Amazon, Nike, etc. </p>
+<center><a" style="    color: #00b5de;
+    font-size: 14px;
+    border: 1px solid #00b5de;
+    border-radius: 3px;
+    padding: 6px 12px 7px 11px;">Get Started</a></center>
+                </div>
+                </div>
+                </div>
+<div class="col-lg-3 ">
+
+<div style="box-shadow:0 0.125rem 0.1875rem 0 rgba(0,0,0,.11);">
+				<img src="rs.png"alt="search engine optimization courses in bangalore" style="    width: 100%;"/>
+				<div style="background-color:#fff;    padding: 8%;" class="career">
+                  <h4 style="color:blue;">Resume Building</h4>
+				  <p style="  color:black;   padding-bottom: 21%;">Integrating real world projects to make your resume world class as per Current Job Requirements.Resumes optimized for the unique demands and requirements of Indian Employers</p>
+<center><a  " style="    color: #00b5de;
+    font-size: 14px;
+    border: 1px solid #00b5de;
+    border-radius: 3px;
+    padding: 6px 12px 7px 11px;">Get Started</a></center>
+                </div>
+                </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>		               
+				
+
+
+
+<hr class="my-4">
+<div class=" section-1 box"></div>
+
+<div class=" section-2 box"><div id="testimonial" class="slider">
+		<div class="container">
+			<div class="slider-header">
+				<h2 id="Reviews"  style="color:black;">What Students Say</h2>
+				<!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>-->
+			</div>
+				<!-- responsiveslides -->
+					<script src="https://kingslearning.in/js/responsiveslides.min.js"></script>
+						<script>
+							// You can also use "$(window).load(function() {"
+							$(function () {
+							 // Slideshow 4
+							$("#slider3").responsiveSlides({
+								auto: true,
+								pager: false,
+								nav: true,
+								speed: 500,
+								namespace: "callbacks",
+								before: function () {
+							$('.events').append("<li>before event fired.</li>");
+							},
+							after: function () {
+								$('.events').append("<li>after event fired.</li>");
+								}
+								});
+								});
+					</script>
+				<!-- responsiveslides -->
+				<div  id="top" class="callbacks_container">
+					<ul class="rslides" id="slider3">
+						<li>
+							<div class="slider-info">
+								<img src="https://kingslearning.in/images/19.png" alt="" />
+								<p style="color:black;">Even though my technical skills were good, faculty helped me with my communication and now I have my dream job!</p>
+								
+								<h3>Dhvanil </h3>
+							</div>
+						</li>
+						<li>
+							<div class="slider-info">
+								<img src="https://kingslearning.in/images/19.png" alt="" />
+								<p  style="color:black;">1000+ Students from CodeSign has Got JOBS in MNC Companies, Mid-Small Ecommerce and IT Agencies with Bigger Salaries</p>
+
+
+									<h3>Sahil Gupta, Studied in USA</h3>
+							</div>
+						</li>
+						<li>
+							<div class="slider-info">
+								<img src="https://kingslearning.in/images/19.png" alt="" />
+								<p style="color:black;">At CodeSign, Training is good,knowledgeable.Trainer is Industry Expert, very good in teaching & giving various Real Time examples to understand the Project concept.too good course & Placement training to learn Software Testing from basic to advance.</p>
+
+
+								<h3>Jeeva</h3>
+							</div>
+							<div class="slider-info">
+								<img src="https://kingslearning.in/images/19.png" alt="" />
+								<p style="color:black;">I have been attending classes for java .my tutor is very motivating and talented.</p>
+
+
+
+
+								<h3>Ramya</h3>
+							</div>
+						</li>
+						<li>
+							
+					</ul>
+				</div>
+		</div>
+	</div>
+	
+
+</div>
+<div class=" section-3 box"></div>
+<h1 id="PhotoGallary" style="color:black;">Photo Gallary</h1><div style="width:100%" class="image-gallery">
+  <div class="big-image" >
+    <img id="image1"  src="a1.png"height="300" width="300" >
+    <img id="image2" src="a2.png" height="300" width="300">
+    <img id="image3" src="a3.png"height="300" width="300">
+    <img id="image4" src="a4.png"height="300" width="300" >
+    <img id="image5" src="a15.png"height="300" width="300">
+    <img id="image6" src="a5.jpg"height="300" width="300">
+    <img id="image7" src="a6.jpg" height="300" width="300">
+    <img id="image8" src="a22.jpg"height="300" width="300">
+    <img id="image9" src="a21.jpg"height="300" width="300">
+    <img id="image10" src="a20.jpg"height="300" width="300">
+    
+  </div>
+
+
+
+<button class="fun" data-toggle="collapse" data-target="#emoji">click to see some textbook information</button>
+<div id="emoji" class="collapse">
+<div class="container-fluid padding">
+<div class="row text-center">
+	<div class="col-sm-6 col-md-3">
+		<img src="emo1.png">
+	</div>
+	<div class="col-sm-6 col-md-3">
+		<img src="emo2.png">
+	</div>
+	<div class="col-sm-6 col-md-3">
+		<img src="emo3.png">
+	</div>
+	<div class="col-sm-6 col-md-3">
+		<img src="emo4.png">
+	</div>
+
+</div>
+</div>
+</div>
+
+<section style="padding:50px 0px 50px;background-color:#fff;border-top:1px solid #fff; ">
+				<div class="container">
+				
+				  <h2 id="Faculty" style="text-align:center;color:#333;padding:25px 0px 0px;line-height: 66px;">FACULTY</h2>
+				 <h3 style="text-align:center;color:#333;padding:2px 0px 2px">Our world-class faculty are experienced working professionals working in senior positions
+of top-tier companies like</h3>
+				
+				</br>
+                 
+						  <div class="row" style="margin-top:2%;">
+								  <div class="col-md-6" >
+									<center><img src="c1.webp" alt="best and top trainers" class="faculty" width="200" style="border:1px solid #ccc;"></center>
+								  </div>
+								  <div class="col-md-6" >
+									<center><img src="c2.webp" alt="learn digital marketing seo from industry experts to earn money"class="faculty" width="200" style="border:1px solid #ccc;"></center>
+								  </div>
+								  				  
+						  </div>
+						  <div class="row" style="margin-top:2%;">
+								  <div class="col-md-6" >
+									<center><img src="c4.webp" alt="auto cad, catia institutes"class="faculty" width="200" style="border:1px solid #ccc;"></center>
+								  </div>
+								  <div class="col-md-6" >
+									<center><img src="c5.webp" alt="bestÂ coaching center in bangalore and chennai" class="faculty" width="200" style="border:1px solid #ccc;"></center>
+								  </div>
+								 				  
+						  </div>
+						  <div class="row" style="margin-top:2%;">
+								  <div class="col-md-6">
+									<center><img src="c6.webp" alt="certification courses in chennai" class="faculty" width="200" style="border:1px solid #ccc;"></center>
+								  </div>
+								  <div class="col-md-6" >
+									<center><img src="c3.webp" alt="classroom training"class="faculty" width="200" style="border:1px solid #ccc;"></center>
+								  </div>
+								  				  
+						  </div>
+						  <div class="row" style="margin-top:2%;">
+								  <div class="col-md-6" >
+									<center><img src="c8.webp" alt="bestÂ digital marketingÂ institutesÂ in bangalore" class="faculty" width="200" style="border:1px solid #ccc;"></center>
+								  </div>
+								  <div class="col-md-6" >
+									<center><img src="c9.webp"alt="freeÂ trainingÂ and placementÂ in bangalore" class="faculty" width="200" style="border:1px solid #ccc;"></center>
+								  </div>
+								 				  
+						  </div>
+						  
+						  
+						  
+						  
+						</div>
+			
+			
+				</section>
+
+<hr>
+	
+				
+	   <div class="container">
+		  <div class="about-grids">
+						<h2 id="Connect" style="color:blue;">Get In Touch</h2>
+                                         <img src="tr5.jpg" height="150"width="300" align="right" class="img-fluid">
+						<div class="col-sm-12 col-md-4 about-grid" style="color:#fff;text-align: center;">
+                                          
+						<h4 style="color:black;">Malleshwaram, Bangalore</h4>
+
+							<p style="color:black;">
+							CodeSign Training Center,<br>
+							42, R B  House, First Floor,<br>
+							Jyoti Niwas, College Road,<br>
+							Malleshwaram, Bengaluru - 560 095.
+							<br>
+							Email: info@CodeSign.in<br>
+							Phone: +91 8041713406<br>
+							
+							</p>
+							
+						</div>
+						<br>
+
+						<div class="col-sm-12 col-md-4 about-grid" style="color:#fff;text-align: center;">
+						<h4 style="color:black;">1st floor, No.326, 9th Main Road, </h4>
+							<p style="color:black;">
+							CodeSign Training Center,<br>
+							<br>
+							2nd Cross HRBR Layout,<br>
+							
+							1st Block, Kalyana Nagar, 
+                                                        Bangalore, India 560043.
+							<br>
+							Email: info@CodeSign.in<br>
+							Phone: 080 41675342, 
+							<br>
+                            </p>
+</div>
+<h2 style="color:purple; ">Maps</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.262286214292!2d77.64393931477107!3d13.01896229082479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae172915d30117%3A0x405bb8b355673e43!2zSFJCUiDgpKrgpL7gpLDgpY3gpJU!5e0!3m2!1shi!2sin!4v1561314783122!5m2!1shi!2sin" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62209.74528700621!2d77.55886994297089!3d12.964871310148132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1451d39fea1f%3A0x3aecefb81f6351ad!2z4KSc4KWN4KSv4KWL4KSk4KS_IOCkqOCkv-CkteCkvuCkuCDgpJXgpYngpLLgpYfgpJwg4KSU4KSk4KWL4KSo4KWL4KSu4KWL4KSJ4KS4!5e0!3m2!1shi!2sin!4v1561313943641!5m2!1shi!2sin" width="400" height="400" frameborder="0" style="border:0 ; margin-left:300px;" allowfullscreen></iframe>						
+<div class="container-fluid padding">
+<div class="row padding">
+ <div class="col-lg-6">
+
+<a href="#" class="btn btn-primary">Learn More</a>
+
+</div>
+
+
+<hr class="my-4">
+</div>
+
+<div class="container-fluid padding">
+<div class="row text-center padding">
+	<div class="col-12">
+
+	<h2>Connect </h2>
+</div>
+<div class="col-12 social padding">
+	<a href="#"><i class="fab fa-facebook"></i></a>
+	<a href="#"><i class="fab fa-twitter"></i></a>
+	<a href="#"><i class="fab fa-google-plus-g"></i></a>
+	<a href="#"><i class="fab fa-instagram"></i></a>
+	<a href="#"><i class="fab fa-youtube"></i></a>
+</div>
+</div>
+</div>
+	
+<footer>
+<div class="container-fluid padding">
+<div class="row text-center">
+
+	<div class="col-md-4">
+	<img src="logo.png">
+<hr class="light">
+<p>555-555-555</p>
+<p>asgk@gmail.com</p>
+<p>102 Malleshwaram</p>
+<p>Banglore,Karnataka,566402</p>
+</div>
+
+<div class="col-md-4">
+	<hr class="light">
+	<h5>Our Timings</h5>
+	<hr class="light">
+	<p>Monday-Friday:9am-8pm</p>
+	<p>Saturday:9am-4pm</p>
+	<p>Sunday:9am-2pm</p>
+</div>	
+
+<div class="col-md-4">
+	<hr class="light">
+	<h5>Service Areas</h5>
+	<hr class="light">
+	<p>Malleshwaram</p>
+	<p>HRBR Layout</p>
+	
+</div>
+
+<div class="col-12">
+<hr class="light-100">
+</div>
+
+</div>	
+</div>
+</footer>
+
+</body>
+</body>
+</html>
+
+
