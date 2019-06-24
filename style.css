@@ -23,7 +23,7 @@ html,body {
 }
 .section-1{
 	height: 100vh;
-	background-image: url(s2.png);
+	background-image: url(s2.PNG);
 	background-attachment: fixed;
 	background-size: cover;
 	
@@ -35,7 +35,7 @@ background-size:100%;
 .section-2{
 	background: #C2CAD0;
 }
-.section-3{background-image: url(s3.png);
+.section-3{background-image: url(s3.PNG);
 	background-attachment: fixed;
 	background-size: cover;
 	
